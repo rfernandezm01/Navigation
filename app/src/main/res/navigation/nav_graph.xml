@@ -26,16 +26,6 @@
         android:label="fragment_bottom1"
         tools:layout="@layout/fragment_bottom1" />
     <fragment
-        android:id="@+id/bottom2Fragment"
-        android:name="com.example.navigation.Bottom2Fragment"
-        android:label="fragment_bottom2"
-        tools:layout="@layout/fragment_bottom2" />
-    <fragment
-        android:id="@+id/bottom3Fragment"
-        android:name="com.example.navigation.Bottom3Fragment"
-        android:label="fragment_bottom3"
-        tools:layout="@layout/fragment_bottom3" />
-    <fragment
         android:id="@+id/options1Fragment"
         android:name="com.example.navigation.Options1Fragment"
         android:label="fragment_options1"
@@ -50,4 +40,37 @@
         android:name="com.example.navigation.Options2Fragment"
         android:label="fragment_options2"
         tools:layout="@layout/fragment_options2" />
+    <fragment
+        android:id="@+id/recyclerElementosFragment"
+        android:name="com.example.navigation.RecyclerElementosFragment"
+        android:label="fragment_recycler_elementos"
+        tools:layout="@layout/fragment_recycler_elementos" />
+    <fragment
+        android:id="@+id/recyclerValoracionFragment"
+        android:name="com.example.navigation.RecyclerValoracionFragment"
+        android:label="RecyclerValoracionFragment"
+        tools:layout="@layout/fragment_recycler_elementos" />
+    <fragment
+        android:id="@+id/recyclerBuscarFragment"
+        android:name="com.example.navigation.RecyclerBusquedaFragment"
+        android:label="RecyclerBuscarFragment"
+        tools:layout="@layout/fragment_recycler_elementos" />
+
+    <action
+        android:id="@+id/action_mostrarElementoFragment"
+        app:destination="@id/mostrarElementoFragment" />
+    <action
+        android:id="@+id/action_nuevoElementoFragment"
+        app:destination="@id/nuevoElementoFragment" />
+
+    <fragment
+        android:id="@+id/nuevoElementoFragment"
+        android:name="com.example.navigation.NuevoElementoFragment"
+        android:label="fragment_nuevo_elementok"
+        tools:layout="@layout/fragment_nuevo_elemento" />
+    <fragment
+        android:id="@+id/mostrarElementoFragment"
+        android:name="com.example.navigation.MostrarElementoFragment"
+        android:label="fragment_mostrar_elemento"
+        tools:layout="@layout/fragment_mostrar_elemento" />
 </navigation>

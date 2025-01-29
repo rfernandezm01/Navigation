@@ -34,7 +34,9 @@ public class MainActivity extends AppCompatActivity {
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.drawer1Fragment, R.id.drawer2Fragment,
                 R.id.options1Fragment, R.id.options2Fragment
-        ).build();
+        ).setOpenableLayout(binding.drawerLayout)
+                .build();
+
 
         NavigationUI.setupWithNavController(binding.toolbar, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
