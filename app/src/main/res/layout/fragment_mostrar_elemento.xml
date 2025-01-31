@@ -10,6 +10,7 @@
     <TextView
         android:id="@+id/nombre"
         android:layout_width="match_parent"
+        android:textColor="@color/black"
         android:layout_height="wrap_content"
         android:textSize="48sp"/>
     <RatingBar
@@ -21,6 +22,7 @@
         android:id="@+id/descripcion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:textSize="24sp"/>
 
 </LinearLayout>

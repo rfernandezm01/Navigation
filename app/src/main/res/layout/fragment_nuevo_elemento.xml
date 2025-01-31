@@ -4,18 +4,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/cielo"
     android:padding="16dp"
     tools:context=".NuevoElementoFragment">
 
     <EditText
         android:id="@+id/nombre"
         android:layout_width="match_parent"
+        android:textColor="@color/black"
         android:layout_height="wrap_content"
         android:hint="Nombre"/>
     <EditText
         android:id="@+id/descripcion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:hint="Descripcion"/>
     <Button
         android:id="@+id/crear"
