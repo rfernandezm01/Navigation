@@ -48,7 +48,7 @@ public class Bottom1Fragment extends Fragment {
                     binding.bottomNavView.setVisibility(View.VISIBLE);
                 }
 
-                if (destination.getId() == R.id.recyclerBuscarFragment) {
+                if (destination.getId() == R.id.recyclerBusquedaFragment) {
                     binding.searchView.setVisibility(View.VISIBLE);
                     binding.searchView.setIconified(false);
                     binding.searchView.requestFocusFromTouch();

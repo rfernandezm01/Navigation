@@ -11,7 +11,7 @@
         android:title="Valoración" />
 
     <item
-        android:id="@+id/recyclerBuscarFragment"
+        android:id="@+id/recyclerBusquedaFragment"
         android:icon="@android:drawable/ic_menu_search"
         android:title="Buscar" />
 </menu>

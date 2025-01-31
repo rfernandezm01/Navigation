@@ -49,12 +49,12 @@
         android:id="@+id/recyclerValoracionFragment"
         android:name="com.example.navigation.RecyclerValoracionFragment"
         android:label="RecyclerValoracionFragment"
-        tools:layout="@layout/fragment_recycler_elementos" />
+        tools:layout="@layout/fragment_recycler_valoracion" />
     <fragment
-        android:id="@+id/recyclerBuscarFragment"
+        android:id="@+id/recyclerBusquedaFragment"
         android:name="com.example.navigation.RecyclerBusquedaFragment"
-        android:label="RecyclerBuscarFragment"
-        tools:layout="@layout/fragment_recycler_elementos" />
+        android:label="RecyclerBusquedaFragment"
+        tools:layout="@layout/fragment_recycler_busqueda" />
 
     <action
         android:id="@+id/action_mostrarElementoFragment"
